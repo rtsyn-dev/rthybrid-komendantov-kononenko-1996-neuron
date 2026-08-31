@@ -12,25 +12,25 @@
         static const rtsyn_abi_port_descriptor_t rtsyn_rthybrid_komendantov_kononenko_1996_neuron_ports[RTSYN_RTHYBRID_KOMENDANTOV_KONONENKO_1996_NEURON_PORT_COUNT] = {
             [RTSYN_RTHYBRID_KOMENDANTOV_KONONENKO_1996_NEURON_PORT_ISYN_NA] =
         {
-            .name = "Isyn (nA)",
+            .name = "isyn_na",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_IN,
         },
     [RTSYN_RTHYBRID_KOMENDANTOV_KONONENKO_1996_NEURON_PORT_BURST_DURATION_S] =
         {
-            .name = "Burst duration (s)",
+            .name = "burst_duration_s",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_IN,
         },
     [RTSYN_RTHYBRID_KOMENDANTOV_KONONENKO_1996_NEURON_PORT_VM_V] =
         {
-            .name = "Vm (v)",
+            .name = "vm_v",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_OUT,
         },
     [RTSYN_RTHYBRID_KOMENDANTOV_KONONENKO_1996_NEURON_PORT_VM_MV] =
         {
-            .name = "Vm (mV)",
+            .name = "vm_mv",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_OUT,
         },
