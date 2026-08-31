@@ -1,0 +1,212 @@
+name = "RTHybrid Komendantov-Kononenko 1996 Neuron"
+        description = "Komendantov-Kononenko 1996 neuron model integrated with RK4."
+
+[[controls]]
+name = "burst_duration"
+label = "Burst Duration"
+kind = "number"
+target = "param"
+param_id = 0
+value_type = "f64"
+default = "1.0"
+
+[[controls]]
+name = "I"
+label = "I"
+kind = "number"
+target = "param"
+param_id = 1
+value_type = "f64"
+default = "0.0"
+
+[[controls]]
+name = "cm"
+label = "Cm"
+kind = "number"
+target = "param"
+param_id = 2
+value_type = "f64"
+default = "0.02"
+
+[[controls]]
+name = "g_na_v"
+label = "G Na V"
+kind = "number"
+target = "param"
+param_id = 3
+value_type = "f64"
+default = "0.11"
+
+[[controls]]
+name = "v_na"
+label = "V Na"
+kind = "number"
+target = "param"
+param_id = 4
+value_type = "f64"
+default = "40.0"
+
+[[controls]]
+name = "g_na"
+label = "G Na"
+kind = "number"
+target = "param"
+param_id = 5
+value_type = "f64"
+default = "0.0231"
+
+[[controls]]
+name = "g_na_ttx"
+label = "G Na Ttx"
+kind = "number"
+target = "param"
+param_id = 6
+value_type = "f64"
+default = "400.0"
+
+[[controls]]
+name = "g_k"
+label = "G K"
+kind = "number"
+target = "param"
+param_id = 7
+value_type = "f64"
+default = "0.25"
+
+[[controls]]
+name = "g_k_tea"
+label = "G K Tea"
+kind = "number"
+target = "param"
+param_id = 8
+value_type = "f64"
+default = "10.0"
+
+[[controls]]
+name = "v_k"
+label = "V K"
+kind = "number"
+target = "param"
+param_id = 9
+value_type = "f64"
+default = "-70.0"
+
+[[controls]]
+name = "g_b"
+label = "G B"
+kind = "number"
+target = "param"
+param_id = 10
+value_type = "f64"
+default = "0.165"
+
+[[controls]]
+name = "v_b"
+label = "V B"
+kind = "number"
+target = "param"
+param_id = 11
+value_type = "f64"
+default = "-58.0"
+
+[[controls]]
+name = "g_ca"
+label = "G Ca"
+kind = "number"
+target = "param"
+param_id = 12
+value_type = "f64"
+default = "1.5"
+
+[[controls]]
+name = "v_ca"
+label = "V Ca"
+kind = "number"
+target = "param"
+param_id = 13
+value_type = "f64"
+default = "150.0"
+
+[[controls]]
+name = "g_ca_ca"
+label = "G Ca Ca"
+kind = "number"
+target = "param"
+param_id = 14
+value_type = "f64"
+default = "0.02"
+
+[[controls]]
+name = "k_beta"
+label = "K Beta"
+kind = "number"
+target = "param"
+param_id = 15
+value_type = "f64"
+default = "15000.0"
+
+[[controls]]
+name = "beta"
+label = "Beta"
+kind = "number"
+target = "param"
+param_id = 16
+value_type = "f64"
+default = "0.00004"
+
+[[controls]]
+name = "rho"
+label = "Rho"
+kind = "number"
+target = "param"
+param_id = 17
+value_type = "f64"
+default = "0.002"
+
+[[controls]]
+name = "k_s"
+label = "K S"
+kind = "number"
+target = "param"
+param_id = 18
+value_type = "f64"
+default = "50.0"
+
+[[controls]]
+name = "v0_mV"
+label = "V0 Mv"
+kind = "number"
+target = "param"
+param_id = 19
+value_type = "f64"
+default = "-55.0"
+
+
+[[indicators]]
+name = "m"
+label = "M"
+target = "state"
+state_id = 0
+value_type = "f64"
+
+[[indicators]]
+name = "h"
+label = "H"
+target = "state"
+state_id = 1
+value_type = "f64"
+
+[[indicators]]
+name = "n"
+label = "N"
+target = "state"
+state_id = 2
+value_type = "f64"
+
+[[indicators]]
+name = "ca"
+label = "Ca"
+target = "state"
+state_id = 3
+value_type = "f64"
+
